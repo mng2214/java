@@ -10,6 +10,7 @@ public class Practice4 {
         System.out.println(numbers.length); // size/count of elements(8)
 
         System.out.println(numbers[0]); // 4
+        System.out.println("   ");
 
         System.out.println(Arrays.toString(numbers));
         numbers[1] = 88; // giving a new value to index 1

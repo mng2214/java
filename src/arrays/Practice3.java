@@ -36,6 +36,7 @@ public class Practice3 {
             if (studentNames[i] != null) {
                 if (studentNames[i].contains("l")) {
                     System.out.println(studentNames[i]);
+                    System.out.println("    ");
                 }
             }
         }
