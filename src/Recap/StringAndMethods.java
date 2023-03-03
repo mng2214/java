@@ -16,7 +16,7 @@ public class StringAndMethods {
      String name2=new String("Ahmet")  -->Heap Memory  -->Ahmet
 
      sout(name.equals(name2) ==> TRUE
-     sout(name==name2)      ==> FALSE
+     sout(name==name2)       ==> FALSE
 
      *(==) is a way to compare two variables based on the "LOCATION" of it
 
