@@ -1,46 +1,59 @@
 package B16MentoringWithArtur;
 
 public class mentoring_1 {
-/*
-MENTORING 3/4/23
-----------------------------------------------------------------------------------------------------
-1 jdk jre jvm  explanating
-2 is java 100% oop language? if not why?
-3 data types? how many?
-4 ASCII Table what is it why do we use it?
-5 What is the difference between (.) and (==)?
-6 What is String and how do you declare?
-7 String Methods?
-	     1-INDEXOF()-->IT GIVES YOU THE INDEX NUMBER OF CHARACTER.IT RETURNS INT
-         2-LENGTH() -->IT GIVES YOU THE SIZE OF THE DATA(VALUE).IT RETURNS INT
-         3-CONCAT() -->IT IS A WAY TO COMBINE TWO OR MORE VALUES.(CONCAT() OR "+").IT RETURNS STRING
-         4-SPLIT() --> IT IS A WAY TO CUT THE WORDS FROM SPECIFIC SPOT.IT RETURNS STRING ARRAY
-         5-STARTSWITH()-->IT CHECKS THE VALUE STARTS WITH A SPECIFIC CHARACTERS/WORDS.IT RETURNS BOOLEAN
-         6-ENDSWITH() -->IT CHECKS THE VALUE ENDS WITH A SPECIFIC CHARACTERS/WORDS.IT RETURNS BOOLEAN
-       * 7-SUBSTRING()-->IT IS A WAY TO GET SPECIFIC CHARACTERS/WORDS FROM STRING.IT RETURNS STRING
-       * 8-CHARAT() -->IT GIVES YOU THE CHARACTER OF A SPECIFIC INDEX SPOT.IT RETURNS CHAR
-     *** 9-CONTAINS()-->IT CHECKS THE VALUE HAS THE DATA THAT YOU ARE LOOKING FOR.IT RETURNS BOOLEAN
-     *** 10-TRIM() -->IT REMOVES THE SPACES FROM BEGINNING , FROM END
-       * 11-REPLACE() -->IT REPLACES THE SPECIFIC CHARACTER/WORDS IN STRING.IT RETURNS STRING
-     *** 12-EQUALS() -->IT COMPARES TWO VALUES OF VARIABLE.IT RETURNS BOOLEAN
-       * 13-EQUALIGNORECASE() -->IT COMPARES TWO VALUES OF VARIABLE WITHOUT CASE SENSITIVITY.
-      ** 14-VALUEOF() -->IT CONVERTS THE DIFFERENT DATA TYPE TO STRING TYPE.IT RETURNS STRING
-      *  15-ToUpper/ToLower-->it changes the characters to upper or lower case.It returns String
-8 what is Unary operators? ++  pre -- post
-9 java arithmetic operators + - * / %   Math.()
-10 OperatorPrecedence ? NumericPromotion?
-11 logical operators > < =< >=  True false table?
-12 if ter conditions
-----------------------------------------------------------------------------------------------------
-TASKS:
-1 Write a program where user input char and programs checks if its Upper or lower case
-2 User input 1 word. Build a logic where system gonna accept this word in a lowercase only and save it to String variable 'str'
-3 from tast 2. take 1st and last char from variable and comapare. check if first char in a range of 97 to 107 and last char is in a range of 115-122.
-4 gived 2 words in a string. save them into 2 different string var
-5 get a first work and replace 1st char with a last char of a second word
-6 2 variables change  with creatign 3rd one
-7 2 variables change with out creatign 3rd one
- */
+    /*
+    MENTORING 3/4/23
+    ----------------------------------------------------------------------------------------------------
+    1 jdk jre jvm  explanating
+    2 is java 100% oop language? if not why?
+    3 data types? how many?
+    4 ASCII Table what is it why do we use it?
+    5 What is the difference between (.) and (==)?
+    6 What is String and how do you declare?
+    7 String Methods?
+             1-INDEXOF()-->IT GIVES YOU THE INDEX NUMBER OF CHARACTER.IT RETURNS INT
+             2-LENGTH() -->IT GIVES YOU THE SIZE OF THE DATA(VALUE).IT RETURNS INT
+             3-CONCAT() -->IT IS A WAY TO COMBINE TWO OR MORE VALUES.(CONCAT() OR "+").IT RETURNS STRING
+             4-SPLIT() --> IT IS A WAY TO CUT THE WORDS FROM SPECIFIC SPOT.IT RETURNS STRING ARRAY
+             5-STARTSWITH()-->IT CHECKS THE VALUE STARTS WITH A SPECIFIC CHARACTERS/WORDS.IT RETURNS BOOLEAN
+             6-ENDSWITH() -->IT CHECKS THE VALUE ENDS WITH A SPECIFIC CHARACTERS/WORDS.IT RETURNS BOOLEAN
+           * 7-SUBSTRING()-->IT IS A WAY TO GET SPECIFIC CHARACTERS/WORDS FROM STRING.IT RETURNS STRING
+           * 8-CHARAT() -->IT GIVES YOU THE CHARACTER OF A SPECIFIC INDEX SPOT.IT RETURNS CHAR
+         *** 9-CONTAINS()-->IT CHECKS THE VALUE HAS THE DATA THAT YOU ARE LOOKING FOR.IT RETURNS BOOLEAN
+         *** 10-TRIM() -->IT REMOVES THE SPACES FROM BEGINNING , FROM END
+           * 11-REPLACE() -->IT REPLACES THE SPECIFIC CHARACTER/WORDS IN STRING.IT RETURNS STRING
+         *** 12-EQUALS() -->IT COMPARES TWO VALUES OF VARIABLE.IT RETURNS BOOLEAN
+           * 13-EQUALIGNORECASE() -->IT COMPARES TWO VALUES OF VARIABLE WITHOUT CASE SENSITIVITY.
+          ** 14-VALUEOF() -->IT CONVERTS THE DIFFERENT DATA TYPE TO STRING TYPE.IT RETURNS STRING
+          *  15-ToUpper/ToLower-->it changes the characters to upper or lower case.It returns String
+    8 what is Unary operators? ++  pre -- post
+    9 java arithmetic operators + - * / %   Math.()
+    10 OperatorPrecedence ? NumericPromotion?
+    11 logical operators > < =< >=  True false table?
+    12 if ter conditions
+    ----------------------------------------------------------------------------------------------------
+    TASKS:
+    1 Write a program where user input char and programs checks if its Upper or lower case
+    2 User input 1 word. Build a logic where system gonna accept this word in a lowercase only and save it to String variable 'str'
+    3 from tast 2. take 1st and last char from variable and comapare. check if first char in a range of 97 to 107 and last char is in a range of 115-122.
+    4 gived 2 words in a string. save them into 2 different string var
+    5 get a first work and replace 1st char with a last char of a second word
+    6 2 variables change  with creatign 3rd one
+    7 2 variables change with out creatign 3rd one
+
+     */
+    public static void main(String[] args) {
+        int a = 2;
+        int b = 3;
+        a = a + b; //5
+        b = a - b ; // 2
+        a = a - b ; //3
+        System.out.println(a);
+        System.out.println(b);
+
+    }
+
+
 
 
 
