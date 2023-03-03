@@ -3,7 +3,7 @@ package B16MentoringWithArtur;
 public class mentoring_1 {
     /*
     MENTORING 3/4/23
-    ----------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------
     1 jdk jre jvm  explanation
     2 is java 100% oop language? if not why?
     3 data types? how many?
