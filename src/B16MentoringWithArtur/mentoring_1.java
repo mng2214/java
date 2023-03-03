@@ -25,13 +25,13 @@ public class mentoring_1 {
          *** 12-EQUALS() -->IT COMPARES TWO VALUES OF VARIABLE.IT RETURNS BOOLEAN
            * 13-EQUALIGNORECASE() -->IT COMPARES TWO VALUES OF VARIABLE WITHOUT CASE SENSITIVITY.
           ** 14-VALUEOF() -->IT CONVERTS THE DIFFERENT DATA TYPE TO STRING TYPE.IT RETURNS STRING
-          *  15-ToUpper/ToLower-->it changes the characters to upper or lower case.It returns String
+           * 15-ToUpper/ToLower-->it changes the characters to upper or lower case.It returns String
     8 what is Unary operators? ++  pre -- post
     9 java arithmetic operators + - * / %   Math.()
     10 OperatorPrecedence ? NumericPromotion?
     11 logical operators > < =< >=  True false table?
     12 if ter conditions
-    ----------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------
     TASKS:
     1 Write a program where user input char and programs checks if its Upper or lower case
     2 User input 1 word. Build a logic where system gonna accept this word in a lowercase only and save it to String variable 'str'
@@ -45,8 +45,8 @@ public class mentoring_1 {
     public static void main(String[] args) {
         int a = 2;
         int b = 3;
-        a = a + b; //5
-        b = a - b ; // 2
+        a = a + b;  //5
+        b = a - b ; //2
         a = a - b ; //3
         System.out.println(a);
         System.out.println(b);
