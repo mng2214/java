@@ -4,7 +4,7 @@ public class mentoring_1 {
     /*
     MENTORING 3/4/23
     ----------------------------------------------------------------------------------------------------
-    1 jdk jre jvm  explanating
+    1 jdk jre jvm  explanation
     2 is java 100% oop language? if not why?
     3 data types? how many?
     4 ASCII Table what is it why do we use it?
@@ -35,11 +35,11 @@ public class mentoring_1 {
     TASKS:
     1 Write a program where user input char and programs checks if its Upper or lower case
     2 User input 1 word. Build a logic where system gonna accept this word in a lowercase only and save it to String variable 'str'
-    3 from tast 2. take 1st and last char from variable and comapare. check if first char in a range of 97 to 107 and last char is in a range of 115-122.
-    4 gived 2 words in a string. save them into 2 different string var
+    3 from last 2. take 1st and last char from variable and compare. check if first char in a range of 97 to 107 and last char is in a range of 115-122.
+    4 given 2 words in a string. save them into 2 different string var
     5 get a first work and replace 1st char with a last char of a second word
-    6 2 variables change  with creatign 3rd one
-    7 2 variables change with out creatign 3rd one
+    6 2 variables change  with creation 3rd one
+    7 2 variables change with out creation 3rd one
 
      */
     public static void main(String[] args) {
